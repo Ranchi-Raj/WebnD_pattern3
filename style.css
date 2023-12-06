@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(246, 200, 183);
+}
+
+/* .allign{
+    margin: 100px;
+    margin-left: 200px;
+} */
+
+.rect{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+   rotate: 45deg;
+   margin-top: 100px;
+   margin-left: 200px;
+}
+
+.eyes{
+    display: flex;
+}
+
+.eye{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 90px;
+    border-top: solid black 10px;
+    border-bottom: solid black 7.5px;
+    border-right: solid black 10px;
+    border-left: solid black 10px;
+
+    rotate: 45deg;
+}
+.cenRed{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin-left: 150px;
+    position: relative;
+    right: 420px;
+    top: 40px;
+    border-radius: 50%;
+}
+#e2{
+    rotate: -45deg;
+}
+
+.tongue{
+    width: 120px;
+    height:120px;
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 190px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.triMain{
+    display:flex;
+    position: relative;
+    left: 15px;
+    bottom: 250px;
+}
+.tri1{
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 0;
+    border-bottom: 30px solid rgb(0, 0, 0);
+    margin-left: 50px;
+    rotate: -75deg;
+    position: relative;
+    bottom: -10px;
+    right: 5px;
+}
+#t2{
+  rotate: 110deg;
+  position: relative;
+  left: 35px;
+  top: 45px;
+}
+.tri2{
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top: 0;
+    border-bottom: 30px solid rgb(0, 0, 0);
+    position: relative;
+    margin-left: 80px;
+    top: 45px;
+    right: 5px;
+    rotate: 130deg;
+}
+
+#t4{
+    rotate: 65deg;
+    position: relative;
+    top: -00px;
+    right: 15px;
+}
+
